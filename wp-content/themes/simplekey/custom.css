@@ -1,0 +1,137 @@
+/*------------------------------------------
+ * Add your custom css below.
+------------------------------------------*/
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1#site-logo, h1#site-logo a {
+  width: 220px;
+}
+
+.home #top {
+  background: transparent;
+}
+
+#featured {
+  background: transparent;
+}
+
+#featured .slide_content {
+  color: black;
+  text-transform: none;
+  height: auto;
+}
+
+#featured .slide_bg img {
+  opacity: 0.85;
+}
+
+#featured .oneColumn #secondTitle {
+    font-family: 'league_gothic',Helvetica, Arial, sans-serif;
+}
+
+#featured #excerpt {
+  color: black;
+  border-color: black;
+  font-size: 1.2em;
+}
+
+#featured #btns a {
+  font-family: 'nexa_boldregular',Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  font-weight: normal;
+}
+
+.page-area .title p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.config .item .thumbnail {
+  height: 160px;
+}
+
+.config .item .thumbnail img {
+  max-height: 160px;
+}
+
+.config .item h2 {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.contactinfo a.white {
+    color: white;
+    text-decoration: underline;
+}
+.contactway {
+    display: none;
+}
+.contactform .success {
+    color: white;
+}
+.contactform input, .contactform textarea {
+    font: inherit;
+}
+
+.portfolios .portfolio-item p {
+  white-space: pre-line;
+}
+.post .entry img.no-shadow {
+    box-shadow: none;
+}       
+#portfolio .title {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .config .item {
+        height: auto;
+    }
+    .config .item .thumbnail {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 980px) and (min-width: 481px) {
+.config .item {
+width: 29%;
+margin-right: 2%;
+margin-bottom: 4%;
+  height: 368px;
+}
+.config .item .thumbnail {
+vertical-align: middle;
+display: table-cell;
+}
+.config .item h2 {
+    margin-top: 20px;
+}
+}
+
+@media only screen and (min-width: 801px) {
+#primary-menu-container {
+  min-width: 530px;
+}
+}
+
+@media only screen and (min-width: 981px) {
+.config .item {
+  height: 410px;
+  margin-bottom: 30px;
+}
+#primary-menu-container {
+  min-width: 530px;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    #featured #btns a {
+        font-size: 1.2em;
+        min-width: 100px;
+        padding: 10px 10px 10px 10px;
+    }
+}
