@@ -1,5 +1,6 @@
 <?php
 
+//tail -f /var/log/apache2/error_log
   $email_to = "etayluz@gmail.com";
   $email_subject = "New Contact";
   error_log("here");

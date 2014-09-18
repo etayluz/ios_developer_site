@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>What I Eat iPhone app case study | Polecat</title>
+      <meta name="description" content="How we created What I Eat application from scratch" /><meta http-equiv="X-UA-Compatible" content="chrome=1" /> 
+<link rel="stylesheet" type="text/css" href="css/style.css" /><link href="favicon.ico" type="image/x-icon" rel="icon" /><link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />  
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script><script type="text/javascript" src="js/jquery-1.7.2.min.js"></script><script type="text/javascript" src="js/scripts.js"></script><script type="text/javascript" src="js/selectbox.js"></script><script type="text/javascript" src="http://use.typekit.net/gly1rlr.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js"></script><script type="text/javascript" src="js/jquery.coda-slider-3.0.min.js"></script><script>
+    $(function(){
+      $('#slider-id').codaSlider({
+      //autoSlide:true,
+      autoSlideInterval: 1000,
+      slideEaseDuration:800,
+      dynamicArrows: false,
+      autoHeight: false,
+  });
+    });
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter22582369 = new Ya.Metrika({id:22582369,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="http://mc.yandex.ru/watch/22582369" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+</head>
+<body class="body_bg2">
+<header>
+   <a href="index.html" class="logo"><img src="img/logo.png" alt="" height="36" width="210" /></a><a class="contact_us popap_click" href="what-i-eat.html#" title="Contact Us">Contact Us</a>
+      <menu class="white">
+            <li>
+              <a href="process.html">Process</a>
+            </li>
+            <li>
+              <a href="development.html">Development</a>
+            </li>
+            <li>
+              <a href="projects.html">Projects</a>
+            </li>
+            <li>
+              <a href="crew.html">Crew</a>
+            </li>
+       </menu>
+</header>
+     <div class="main">
+    
+    <div class="app_store_block">
+        <div class="app_store_info app_store_info_1">
+            <img src="img/icon_1_shadow.png" class="photo" width="127" height="127" alt="">
+            <h4>What I Eat</h4>
+            <p>Simplest way ever to track  your eating habits</p>
+            <a href="https://itunes.apple.com/us/app/what-i-eat/id533071638?mt=8" title=""><img src="img/app_store.png" class="photo" width="158" height="53" alt=""></a>
+            <i>Exactly what I was looking for <img src="img/star.png" alt=""><img src="img/star.png" alt=""><img src="img/star.png" alt=""><img src="img/star.png" alt=""><img src="img/star.png" alt=""></i>
+            <i>by Jacqueline Ionescu</i>
+        </div>
+        <img src="img/app_phone_2.png" class="app_phone" width="320" height="513" alt="">  
+    </div>
+
+    <div class="idea_block">
+        <div class="idea_block_bg">
+            <h4>Idea</h4>
+            <strong><span>A tool that simplifies meal-tracking. Easy-to-use, with the most&nbsp;<br>&nbsp;essential features.</span></strong>
+            <h5>Debating our ideas</h5>
+            <ul>
+                <li>
+                    <p>The first release version is going to be instantly usable, and capable of expansion. We believe it is best to roll out an attractive, user-friendly app.</p>
+                    <p>There should be a calendar on which daily meals can be recorded. Need to check and</p>
+                </li>
+                <li>
+                    <p>compare meals or just to share them? Now it’s as easy as pie.</p>
+                    <p>The format chosen for meal tracking is also important. With our app, users can quickly add anything to their daily records.</p>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="prototyping_block">
+        <h2>Prototyping</h2>
+        <ul class="prototyping_list">
+            <li>
+                <div class="photo"><img src="img/pic_1.png" width="218" height="328" alt=""></div>
+                <h5>Main Screen</h5>
+                <p>Our app is all about listing things in a comfortable way. Thus, the core part is the main screen, which was prototyped first.</p>
+            </li>
+            <li>
+                <div class="photo"><img src="img/pic_2.png" width="218" height="328" alt=""></div>
+                <h5>Adding your meal</h5>
+                <p>After the opening screen of the app was ready, we looked at prototyping how to enter meals. We believed that adding meals should be fast and efficient.</p>
+            </li>
+            <li class="last">
+                <div class="photo"><img src="img/pic_3.png" width="218" height="328" alt=""></div>
+                <h5>Calendar control</h5>
+                <p>The calendar was the next step. It had to be as user-friendly as possible. Records posted had to be able to be checked simply by clicking on the date in the calendar.</p>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="design_block">
+        <div class="design_block_info">
+            <h2>design</h2>
+            <p>After the prototype screens were decided on, we took the next step and started designing them.</p>
+            <p>Our user interface is text-based. We wanted our fonts to look neither garish nor plain. We felt the combination of the sans-serif Helvetica for the time and header and serif Georgia for the meals was perfect.</p>
+            <p>The final touch is to assess animation during screen changes.</p>
+        </div>
+        <div class="design_show">
+            <div class="coda-slider"  id="slider-id">
+              <div><h2 class="title">Panel 1</h2><img src="img/wie1.png" width="316" height="557" alt=""></div>
+              <div><h2 class="title">Panel 2</h2><img src="img/wie4.png" width="316" height="557" alt=""></div>
+              <div><h2 class="title">Panel 3</h2><img src="img/wie2.png" width="316" height="557" alt=""></div>
+              <div><h2 class="title">Panel 4</h2><img src="img/wie3.png" width="316" height="557" alt=""></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="testing_block">
+        <h2>testing</h2>
+        <p>Once we have tested the implementation on iPhones, adjustments will be made so that the app meets all of our expectations.</p>
+        <ul>
+            <li><img src="img/testing_pic1.jpg" width="449" height="360" alt=""></li>
+            <li class="last"><img src="img/testing_pic2.jpg" width="449" height="360" alt=""></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+
+    <div class="icon_block">
+        <div class="icon_block_info">
+            <h2>icon</h2>
+            <p>The application icon is one of the most attention-grabbing parts of the app. We wanted it to stand out among the others in the AppStore. Our friends from <a href="http://dribbble.com/Loggia">Loggia</a> helped us to do that.</p>
+            <p>Out of these we picked #6 as the one that most reflected the function of the what-i-eat app. We also reduced the number of the items on the tray to a folk, a knife and a plate.</p>
+        </div>
+        <img src="img/icons.jpg" class="icon_show" width="395" height="585" alt="">
+        <div class="clear"></div>
+        <div class="icon_show_left"><img src="img/icon_big.jpg" width="380" height="386" alt=""></div>
+        <div class="icon_block_info_right">
+            <h4>Final icon</h4>
+            <p>The great initial sketch did not work as an icon for an iPhone app. However, a brainstorming session led us to a salmon steak which you can see below.</p>
+            <div class="icons"><img src="img/icon_5.png" width="133" height="135" alt=""><img src="img/icon_5.png" width="86" height="87" alt=""><img src="img/icon_5.png" width="58" height="59" alt=""></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="preparation_block">
+        <h2>Preparation<br>for AppStore</h2>
+        <div class="preparation_info">
+            <img src="img/preparation_pic1.jpg" width="373" height="522" alt="">
+            <p>While submitting an application to the AppStore, an iOS developer needs not only to promote the application binary, but also to submit things like an application description and the application screens. These will define the appearance of the app in iTunes.</p>
+            <p>We wanted to have application screens which depicted the way the app would be used that we envisioned from the very beginning. We produced pictures of the app with meals in the background.</p>
+        </div>
+        <div class="clear"></div>
+        <img src="img/preparation_pic2.jpg" width="930" height="503" alt="">
+    </div>
+
+    <div class="reviews_block">
+        <h2>Appstore Reviews</h2>
+        <ul>
+            <li>
+                <div class="reviews_bar">
+                    <h4><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""></h4>
+                    <h5>A real treat.</h5>
+                    <i>by Jonny0007 - Version 1.3 - Dec 6, 2012</i>
+                    <p>The app can log your calorie intake and/or the food items you eat during the day. A calendar view provides a long-range overview of your consumption, should you need to double-check your trend. A simple & effective application. Really fills a niche; since so many other dietary apps tend to be unnecessarily over-complicated.</p>
+                </div>
+                <div class="reviews_bar">
+                    <h4><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""></h4>
+                    <h5>Needed something simple</h5>
+                    <i>by PintoNess - Version 1.2 - Oct 27, 2012</i>
+                    <p>Needed an uncomplicated way to keep notes to give to my diabetes dr. The simplicity of this app may have literally saved my life because it helps me track my food intake and I add notes about my insulin and blood sugar results. I have ADHD and too many options can be distracting therefore defeating the purpose. For this app I'd recommend a.m to p.m. chronology to make reading notes easier. If you make a second app, improve upon this one with an hourly increment reminder/timer options. That's all I would need to have the perfect resource. Sometimes simple is better. Thank you.</p>
+                </div>
+            </li>
+            <li>
+                <div class="reviews_bar">
+                    <h4><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""></h4>
+                    <h5>I am very happy with this app. </h5>
+                    <i>by PapillonMar - Version 1.2 - Oct 18, 2012</i>
+                    <p>I wanted an app that helped me to realize what , how much and when I eat. Calorie counting is at this moment not important to me. With help of "what I eat" I am more aware of what I eat, and happy about it.</p>
+                </div>
+                <div class="reviews_bar">
+                    <h4><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""></h4>
+                    <h5>This is Simplicity </h5>
+                    <i>by - Version 1.1 - Aug 15, 2012</i>
+                    <p>At its best. Great for food tracking. Especially for diabetic dieters like myself! Thanks!</p>
+                </div>
+                <div class="reviews_bar">
+                    <h4><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""></h4>
+                    <h5>Review </h5>
+                    <i>by Jacqueline Ionescu - Version 1.2 - Sep 2, 2012</i>
+                    <p>This app is very useful and easy to use. I reccomend it to everyone who is on a diet or just wants to keep track of their calories intake because it will not disappoint!</p>
+                </div>
+                <div class="reviews_bar">
+                    <h4><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""></h4>
+                    <h5>What I eat </h5>
+                    <i>by djsoude - Version 1.3.1 - Jan 10, 2013</i>
+                    <p>Fantastic little app easy to use - does not over complicate things - it's a Ronseal app - does exactly what is says on the tin lol</p>
+                </div>
+            </li>
+            <li class="last">
+                <div class="reviews_bar">
+                    <h4><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""></h4>
+                    <h5>Utile </h5>
+                    <i>by andy-ben - Version 1.2 - Sep 30, 2012</i>
+                    <p>utile x fare il diario alimentare per la dietologa e inviarlo giornalmente via mail</p>
+                </div>
+                <div class="reviews_bar">
+                    <h4><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""></h4>
+                    <h5>Great app! </h5>
+                    <i>by Ravit s - Version 1.3.1 - Dec 23, 2012</i>
+                    <p>I search for app like this one more then month, and now I finally found. great app, very recommended +++++</p>
+                </div>
+                <div class="reviews_bar">
+                    <h4><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""><img src="img/star1.png" width="16" height="15" alt=""></h4>
+                    <h5>Great!</h5>
+                    <i>by Arnold Marsupial - Version 1.2 - Aug 27, 2012</i>
+                    <p>Exactly what I was looking for. Easy input, clean interface and free. Cheers.</p>
+                </div>
+            </li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+
+    <div class="check_block">
+        <h4>Check out other projects we completed:</h4>
+        <div class="check_list">
+            <ul>
+                <li>
+                    <a href="time-and-place.html" title=""><img src="img/icon_2.png" alt="" class="photo" height="114" width="114" /></a>                    <h5>
+                    <a href="time-and-place.html" title="">Time & Place</a></h5>
+
+                </li>
+
+                <li>
+                    <a href="interior-pro.html" title=""><img src="img/icon_3.png" alt="" class="photo" height="114" width="114" /></a>                    <h5>
+                    <a href="interior-pro.html" title="">interior.pro</a></h5>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="used">Many thanks to Paul Flavius Nechita for these <a href="http://dribbble.com/shots/750626-iPhone-5-Mock-ups-FREEMIUM" title="">amazing iphone renders</a>  we use to present our work</div> 
+    
+</div>        
+    
+<div class="main">
+
+    <div class="more_block">
+        <p>Need more information about how we work?<span></span></p>
+        <a class="popap_click" href="what-i-eat.html#" title="Ask now"><span>Ask now</span></a>
+        <div class="clear"></div>
+    </div>
+    
+</div>     
+ <footer>
+	<div class="footer_bg">
+		<menu>
+          <li>
+            <a href="process.html" title="Process">Process</a>
+          </li>
+          <li>
+            <a href="development.html" title="Development">Development</a>
+          </li>
+          <li>
+            <a href="projects.html" title="Projects">Projects</a>
+          </li>
+          <li>
+            <a href="crew.html" title="Crew">Crew</a>
+          </li>
+		</menu>
+		<div class="clear"></div>
+		<div class="footer_block1">
+  		  <div class="twit_block">
+            <div class="twit_block_bg" id="jstwitter"> "Error: Skips larger than 10000 are not allowed" - WHAT?? @ParseIt<br><i>1 month ago</i> </div>
+
+            <a href="https://twitter.com/ipolecat_com" class="twitter-follow-button soc_icon icon" data-show-count="false">Follow @ipolecat_com</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+                  if(!d.getElementById(id))
+                  {js=d.createElement(s);
+                      js.id=id;js.src="//platform.twitter.com/widgets.js";
+                      fjs.parentNode.insertBefore(js,fjs);
+                  }}(document,"script","twitter-wjs");
+              </script>
+  		  </div>
+			   <img src="img/avatar.png" class="avatar" width="124" height="166" alt="">
+			   <div class="talk_block">
+              <h4>Hello from Andrew</h4>
+              <p>American literature is what I'm fond of. On my shelves there are Updike, Vonnegut.</p>
+              <strong><a class="popap_click" href="what-i-eat.html#" title="Contact Andrew">Contact Andrew </a></strong>
+              <div class="talk_block_bg"></div>
+          </div>
+			    <div class="clear"></div>
+		</div>
+
+		<div class="footer_block2">
+        	<div class="footer_contact">
+            	<div class="footer_contact_bg"></div>
+              <a class="skype" href="skype:ekhorkov?chat" title="ekhorkov">ekhorkov</a>
+              <span>or</span>
+                <ul>
+                  <li><i></i>ekhorkov (at) ipolecat.com</li>
+                    <li><i class="contact_1"></i>+1 (650) 353-5772</li>
+                </ul>
+          </div> 
+          <div class="soc_block">
+          <div class="soc_block_bg"></div>
+                <div class="fb-like icon "  data-href="http://www.ipolecat.com/" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+                <div id="fb-root"></div>
+                <script>
+                    (function(d, s, id) {
+                      var js, fjs = d.getElementsByTagName(s)[0];
+                      if (d.getElementById(id)) return;
+                      js = d.createElement(s); js.id = id;
+                      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));
+                </script>
+                <div class="icon1"><a href="https://twitter.com/share" class="twitter-share-button icon" data-url="http://www.ipolecat.com/">Tweet</a></div>
+                <script>
+                  !function(d,s,id)
+                  {var js,fjs=d.getElementsByTagName(s)[0];
+                  if(!d.getElementById(id))
+                  {js=d.createElement(s);
+                      js.id=id;js.src="//platform.twitter.com/widgets.js";
+                      fjs.parentNode.insertBefore(js,fjs);
+                  }}(document,"script","twitter-wjs");
+                </script>
+
+               <div class="icon"> <div class="g-plusone icon" data-size="medium"  data-href="http://www.ipolecat.com/"></div></div>
+                                <!-- Place this tag after the last +1 button tag. -->
+                                <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+                                <script type="text/javascript">
+                                  (function() {
+                                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                    po.src = 'https://apis.google.com/js/plusone.js';
+                                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                  })();
+                                </script>
+                <span>&amp;</span>
+                <a class="subscribe" href="http://www.facebook.com/iPolecat" title="">Like us on Facebook</a>
+
+
+          </div>
+          <div class="footer_logos">
+            	<img src="img/footer_logo.png" class="logo" width="202" height="79" alt="">
+              <div class="logo_info">
+                	<div class="logo_info_bg1">
+                    	Some nice pixels dribbled<br>by Polecat on <a href="http://dribbble.com/polecat" title="">Dribbble!</a>
+                  </div>
+                  <div class="logo_info_bg"></div>
+              </div>
+          </div>
+          <div class="clear"></div>
+    </div>
+    <div class="footer_block3">
+          <span>Made in Ukraine by Polecat and <a href="http://hellokeepa.com/" target="_blank" title="">Keepa</a>. © 2009-2014 Polecat.</span> 
+            <p>
+              <a href="how-this-site-was-created.html" title="">How this site was created</a>            </p>
+            <div class="clear"></div>
+    </div>	
+	</div>
+</footer>       
+               
+            
+ <div class="popa_block"   style="display:none">
+    <div class="close_popap popap_block_bg"></div>
+    <div class="popa_block_block">
+
+      <div class="popa_block_block_bg popap_1">
+        <div class="popa_block_top">
+            <p>If you'd like to find out more about our work and our process or just to say hello, please get in touch.</p>
+            <div class="popa_block_top_info">
+                <span>ekhorkov (at) ipolecat.com</span>
+                <span>+1 (650) 353-5772</span>
+                <span><i>ekhorkov</i></span>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <ul>
+            <li><input class="input" id="name_message" type="text" value="Name" onfocus="if (this.value == 'Name') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Name';}" /></li>
+            <li><input class="input" id="email_message" type="text" value="E-mail" onfocus="if (this.value == 'E-mail') {this.value = '';}" onblur="if (this.value == '') {this.value = 'E-mail';}" /></li>
+          <!--form code-->
+          <li><input class="input" id="phone_message" type="text" value="Contact Phone" onfocus="if (this.value == 'Contact Phone') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Contact Phone';}" /></li>
+          <li><textarea class="enter h127" id="text_message" cols="" rows="" name="">Message</textarea></li>
+          <!--form code-->
+            <li>
+                <select class="select styled" name="">
+                    <option>How did you find us?</option>
+                    <option>Recommendation</option>
+                    <option>Search</option>
+                    <option>Facebook</option>
+                </select>
+            </li>
+            <li>
+            <input type="submit" class="submit" value="Send Message" />
+            <div class="ajax_error" style="display:none"><strong>Oh, thats bad, something went wrong:(<br>Please try again or contact us via mail or skype above</strong></div>
+            <div class="clear"></div>
+            </li>
+        </ul>
+        <a class="close close_popap" href="what-i-eat.html#" title="Close">Close</a>
+      </div>
+ 
+
+      <div class="popa_block_block_bg popap_2">
+          <h2>Message Sent!</h2>
+          <h3>We will get back to you shortly</h3>
+          <div class="buttons">
+              <a class="button send_more" href="what-i-eat.html#" title="Send one more">Send one more</a>
+              <a class="button close_popap" href="what-i-eat.html#" title="close">close</a>
+          </div>
+          <a class="close close_popap" href="what-i-eat.html#" title="Close">Close</a>
+      </div>
+    </div>
+  </div>       
+  
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-20316828-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>   
+
+  <script type="text/javascript">
+    if (document.referrer.indexOf(location.hostname) < 0) setInterval(function(){_gaq.push(['_trackEvent', 'NoBounce', 'Over 15 seconds']);}, 15000);
+  </script>
+
+</body>
+</html>
+
