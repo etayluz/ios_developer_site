@@ -80,16 +80,10 @@ var isMobile=0;
 
 </header>
 
-    
- <?php
-$posts = get_posts('numberposts=10&order=ASC&orderby=post_title');
-foreach ($posts as $post) : setup_postdata( $post ); ?>
-<?php the_date(); echo "<br />"; ?>
-<?php the_title(); ?>    
-<?php the_excerpt(); ?> 
 <?php
-endforeach;
+//require('/blog/index.php');
 ?>
+
 <!--Contact Area-->
     <section id="contact" class="page-area blockbg1">
        <div class="wrapper">
