@@ -76,80 +76,23 @@ var isMobile=0;
     </div>
    </div>
   </nav>
-  
+        <?php while ( have_posts() ) : the_post(); ?>
+        <?php get_template_part( 'content', get_post_format() ); ?>
+      <?php endwhile; ?>
+
+      <?php twentytwelve_content_nav( 'nav-below' ); ?>
+
+<?php get_sidebar(); ?>
+
 
 </header>
 
-<?php
-//require('/blog/index.php');
-?>
-
-<!--Contact Area-->
-    <section id="contact" class="page-area blockbg1">
-       <div class="wrapper">
-           <hgroup class="title">
-              <h1><strong>Contact me</strong></h1>
-                         </hgroup>
-           
-           
-
-<div class="contactform">
-      <span class="error"></span>
-      <span class="error"></span>
-      <span class="error"></span>
-    
-  <form id="contactForm" method="post" action="./contact.php">
-   <input type="text"  name="contactName" id="contactName" class="requiredField" value="" placeholder="Your Name" />
-   <input type="text" name="email" id="email" value="" class="requiredField email" placeholder="Your Email" />
-   <textarea class="requiredField" name="comments" id="comments" placeholder="Message"></textarea>
-   <input type="hidden" name="submitted" id="submitted" value="true" />
-   <input type="hidden" name="__no_robots" value="nope" id="skNoRobots" />
-   <script type="text/javascript">
-     jQuery("#skNoRobots").val("sure");
-   </script>
-   <button type="submit" name="submit" id="submitMsg" class="large_btn contact-btn">Submit</button>
- </form>
-</div>
-           
-           <div class="contactinfo">
-                            <h2><strong>Feel free</strong> to ask</h2>
-                          <p>I am happy to answer all your inquiries regarding iPhone and iPad applications. Do not hesitate to contact me via email, phone, skype, or even in person.
-<br /><br />
 
 
-E-mail: <a href="mailto:etayluz@gmail.com" class="white">etayluz@gmail.com</a><br />
-Phone: +1.408.775.9647<br />
-Skype: etayluz<br />
-<!--LinkedIn: <a href="http://www.linkedin.com/pub/oto-kominak/28/618/283" target="_blank" class="white">profile</a>-->
-<br /><br />
 
-Address: New York, New York, United States (US)<br />
-</p>             <div class="contactway">
-                Name: ETAY LUZ<br/>                Email address: hello@kominak.com<br/>                Phone: +421 904 124 577<br/>                Skype: otokominak<br/>                Address: Bratislava, Slovak Republic, European Union (EU)             </div>
-             
-                          
-             <div class="social-icons">
-<a href="http://facebook.com/etay.luz" title="Facebook" class="facebook">Facebook</a> 
- <a href="https://twitter.com/etayluz" title="Twitter" class="twitter">Twitter</a> 
-<!--<a href="http://www.linkedin.com/pub/oto-kominak/28/618/283" title="linkedIn" class="linkedIn">linkedIn</a>-->
-</div>
-             
-           </div>
-       </div>
-    </section>
- 
-    
-</div>
-<footer id="footer">
- <div class="wrapper">
-      <div class="footer-l">
-        Copyright 2013 ETAY LUZ. All right reserved.              </div>
-      <div class="footer-r menu">        
-        <div class="menu-bottom-menu-container"><ul id="menu-bottom-menu" class="menu"><li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="index.html#top">Scroll to top</a></li>
-</ul></div>        
-      </div>
- </div>
-</footer>
+
+
+  
 <script type="text/javascript" src="wp-content/themes/simplekey/js/retina.js"></script>
 <script type="text/javascript" src="wp-content/themes/simplekey/js/jquery.hoverIntent.js"></script>
 <script type="text/javascript" src="wp-content/themes/simplekey/js/jquery.scrollTo-1.4.3.1-min.js"></script>
@@ -163,10 +106,6 @@ Address: New York, New York, United States (US)<br />
 <script type="text/javascript" src="wp-content/themes/simplekey/js/jquery.contact-form.js"></script>
 <script type="text/javascript" src="wp-content/themes/simplekey/js/jquery.tweet.js"></script>
 <script type="text/javascript" src="wp-content/themes/simplekey/js/jquery.simplekey.js"></script>
-<script type="text/javascript">
-var pixel="http://www.kominak.com/wp-content/themes/simplekey/functions/images/pixel.gif";
-var loadimg="http://www.kominak.com/wp-content/themes/simplekey/functions/images/loader2.gif";
-</script>
 <script type='text/javascript' src='wp-content/themes/simplekey/functions/js/jquery.van-ver=3.7.1.js'></script>
 </body>
 </html>
