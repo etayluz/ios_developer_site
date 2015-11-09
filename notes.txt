@@ -1,0 +1,3 @@
+la -ln /Library/WebServer/Documents/
+sudo apachectl start
+http://localhost/etayluz.com/
