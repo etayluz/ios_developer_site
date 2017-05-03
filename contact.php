@@ -14,5 +14,5 @@
   'X-Mailer: PHP/' . phpversion();
 
   // send email
-  @mail($email_to, $email_subject, $email_message, $headers);
+  // @mail($email_to, $email_subject, $email_message, $headers);
 ?>
